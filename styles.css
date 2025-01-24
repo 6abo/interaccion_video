@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+#instructions {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#video-container {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
